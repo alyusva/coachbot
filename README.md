@@ -1,4 +1,4 @@
-# 🧠 CoachBot – Tu entrenador inteligente
+# 🧠 CoachBot – Tu entrenador inteligente ⚽
 
 **CoachBot** es un asistente inteligente que genera planes de entrenamiento personalizados para futbolistas, teniendo en cuenta su **posición**, **lesiones** y **calendario competitivo**.
 
