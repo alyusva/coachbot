@@ -40,10 +40,10 @@ coachbot/
 ```
 
 **🧪 Ejemplos de uso**
-	•	"Soy defensa central y quiero un plan semanal para mejorar mi resistencia"
-	•	"Juego en 4 días y tengo molestias en el tobillo, ¿qué me recomiendas?"
-	•	"¿Qué plan me diste ayer?"
-	•	"Soy portero y tengo partido en 3 días, adapta mi entreno según mi lesión en la rodilla"
+- "Soy defensa central y quiero un plan semanal para mejorar mi resistencia"
+- "Juego en 4 días y tengo molestias en el tobillo, ¿qué me recomiendas?"
+- "¿Qué plan me diste ayer?"
+- "Soy portero y tengo partido en 3 días, adapta mi entreno según mi lesión en la rodilla"
 
 **👨‍💻 Autor**
 Desarrollado por @alyusva como MVP para explorar agentes LLM aplicados al deporte, específicamente al fútbol.
