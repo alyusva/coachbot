@@ -1,0 +1,7 @@
+streamlit
+langchain
+transformers
+torch
+langchain-community
+dateparser
+ollama

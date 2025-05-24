@@ -1,0 +1,117 @@
+[
+  {
+    "user_input": "Soy mediocentro juego el proximo viernes y me duele la cabeza",
+    "response": "Lo mejor sería consultar con un médico para determinar la causa exacta del dolor de cabeza y obtener recomendaciones personalizadas para ajustar tu entrenamiento.\n\nNota: En este caso, el dolor de cabeza es una lesión que requiere atención médica. Es importante no seguir con el entrenamiento normalmente, ya que esto podría empeorar la lesión y causar daño adicional a la cabeza.",
+    "timestamp": "2025-05-24T17:48:54.819783"
+  },
+  {
+    "user_input": "Soy defensa central y juego dentro de 10 días, ¿qué plan de entrenamiento me recomiendas?",
+    "response": "La respuesta correcta es: Para un jugador que juega como defensa central en un partido importante dentro de 10 días, te recomiendo un plan de entrenamiento que se centre en mejorar tu resistencia cardiovascular, potenciar tus músculos del core y aumentar tu velocidad y agilidad. Esto puede incluir ejercicios como correr, saltos altos, remo y resistencia aeróbica. También es importante trabajar en tu técnica de juego para mejorar tu capacidad para leer el juego y anticipar movimientos del adversario. Asegúrate de descansar adecuadamente y mantener una dieta saludable para recuperarte al máximo.",
+    "timestamp": "2025-05-24T17:52:18.953871"
+  },
+  {
+    "user_input": "Tengo una molestia en el tobillo izquierdo desde hace dos días. ¿Qué tipo de entreno debería evitar?",
+    "response": "Debes evitar entrenamientos que involucren ejercicios pesados o impactos en el tobillo izquierdo, como saltar, correr o hacer ejercicios con pesas pesadas. En lugar de eso, puedes enfocarte en entrenamientos ligeros y estiramientos para mantener la flexibilidad y fortalecer los músculos alrededor del tobillo. Es importante consultar con tu equipo médico antes de iniciar cualquier programa de entrenamiento después de una lesión.",
+    "timestamp": "2025-05-24T17:53:34.897556"
+  },
+  {
+    "user_input": "¿Puedes recordarme los últimos planes de entrenamiento que me has dado?",
+    "response": "No tengo información sobre planes de entrenamiento anteriores disponibles. Sin embargo, puedo ofrecerte recomendaciones generales para ajustar tus entrenamientos en función de tus lesiones y disponibilidad.\n\nPuedes utilizar el InjuryTool para obtener recomendaciones personalizadas basadas en tu lesión actual. Por ejemplo, puedes decir \"InjuryTool soy mediocentro con dolor de cabeza\" o \"InjuryTool soy defensa central con molestia en tobillo izquierdo\".\n\nAdditionally, puedo ayudarte a planificar un plan de entrenamiento futuro utilizando el PlannerTool. Puedes decir \"PlannerTool plan de entrenamiento para juego próximo viernes\" o \"PlannerTool plan de entrenamiento para partido importante dentro de 10 días\".",
+    "timestamp": "2025-05-24T17:54:28.319698"
+  },
+  {
+    "user_input": "Tengo partido el 31/05/2025. ¿Qué tipo de sesiones debo hacer los días previos?",
+    "response": "Agent stopped due to iteration limit or time limit.",
+    "timestamp": "2025-05-24T18:03:27.611216"
+  },
+  {
+    "user_input": "Soy lateral izquierdo, tengo molestias en el abductor y juego el jueves. ¿Cómo debería entrenar para llegar bien?",
+    "response": "Agent stopped due to iteration limit or time limit.",
+    "timestamp": "2025-05-24T18:11:34.586642"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero",
+    "response": "Es recomendable que evites ejercicios de contacto y saltos laterales hasta que se recoveres completamente del tobillo. En su lugar, puedes optar por actividades de recuperación como la movilidad articular, los ejercicios en piscina y elíptica, y hacer ejercicios propioceptivos bajo supervisión. Además, considera realizar un plan de entrenamiento personalizado para tu próximo juego, evitando ejercicios que puedan empeorar la lesión y optimizando tus sesiones de entrenamiento para recuperación.",
+    "timestamp": "2025-05-24T18:42:45.750071"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero, quiero un plan especifico para cada día teniendo en cuenta mi lesión",
+    "response": "El plan semanal para los próximos tres días, teniendo en cuenta la lesión en el tobillo del delantero, es el siguiente:\n\n* Lunes: Finalización en el área (sin ejercicios de contacto ni saltos laterales)\n + Ejercicios propioceptivos bajo supervisión en el campo\n + Movilidad articular y ejercicios en piscina\n* Martes: Fuerza tren superior + control orientado (con limitaciones en la intensidad para evitar el tobillo)\n + Ejercicios en elíptica con enfasis en la fuerza del core\n + Control orientado sin saltos ni cambios de dirección bruscos\n* Miércoles: Táctica de desmarques y presión (sin ejercicios de contacto ni saltos laterales)\n + Ejercicios propioceptivos bajo supervisión en el campo\n + Movilidad articular y ejercicios en piscina\n + Simulación de situaciones de juego para desarrollar tácticas de desmarque\n* Jueves: Descanso activo (sin entrenamiento físico)\n + Actividades de descanso con movilidad articular y estiramiento\n + Ejercicios proprioceptivos bajo supervisión en el campo\n* Viernes: Simulación de partido (con limitaciones en la intensidad para evitar el tobillo)\n + Ejercicios propioceptivos bajo supervisión en el campo\n + Movilidad articular y ejercicios en piscina\n + Simulación de un partido con tácticas de desmarque y presión\n\nEs importante recordar que es fundamental seguir las recomendaciones del InjuryTool y ajustar los entrenamientos según la lesión para evitar el peor.",
+    "timestamp": "2025-05-24T18:44:26.027509"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero, quiero un plan especifico para cada día teniendo en cuenta mi lesión",
+    "response": "El plan de entrenamiento para los próximos 3 días, teniendo en cuenta la lesión en el tobillo, es el siguiente:\n\n- Sábado: Subidas por banda y centros, enfocándose en mejorar la precisión y la velocidad.\n- Domingo: Fuerza + agilidad, con un enfoque en el desarrollo de la fuerza muscular y la agilidad para mejorar la capacidad de movimiento.\n- Lunes: Circuitos de resistencia y repliegue, diseñados para mejorar la condición física general sin poner más estrés en el tobillo.\n\nDebo considerar que es importante priorizar ejercicios que no agredan más la lesión y que se adapten a las necesidades específicas del delantero con dolor en el tobillo.",
+    "timestamp": "2025-05-24T18:52:25.870720"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero, quiero un plan especifico para cada día teniendo en cuenta mi lesión",
+    "response": "Puedes obtener un plan personalizado para tus entrenamientos en 3 días con dolor de tobillo como delantero mediante la función AdaptivePlannerTool. Para ello, debes ingresar una descripción detallada de tu situación, como \"Juego en 3 días con dolor de tobillo como delantero\". Luego, el sistema te proporcionará un plan adaptado para cada día, considerando tu lesión y tu rol como delantero.",
+    "timestamp": "2025-05-24T19:05:17.852208"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero, quiero un plan especifico para cada día teniendo en cuenta mi lesión",
+    "response": "La adaptación del entrenamiento para mejorar tu rendimiento como delantero con dolor de tobillo en 3 días es lo siguiente:\n\nPlan adaptado (delantero) para los próximos 3 días:\n\n- Sábado: Finalización en el área con presión\n- Domingo: Fuerza explosiva tren superior y core\n- Lunes: Táctica de desmarques en zona de ataque\n\nRecomendaciones específicas por lesión:\n- ⚠️ Evita saltos, contacto físico y cambios bruscos de dirección.\n- ✅ Usa elíptica, piscina, movilidad articular y propiocepción asistida.\n\nConsiderando tu lesión, te recomiendo hacer ajustes en tu entrenamiento para evitar cualquier dolor o molestia adicional. Es importante priorizar tu recuperación y seguridad.",
+    "timestamp": "2025-05-24T19:08:46.897970"
+  },
+  {
+    "user_input": "juego en 3 días, y me duele el tobillo, soy delantero, quiero un plan especifico para cada día teniendo en cuenta mi lesión",
+    "response": "El plan de entrenamiento adaptado para los próximos 3 días con dolor de tobillo como delantero es el siguiente:\n\n- Sábado: Finalización en el área con presión.\n- Domingo: Fuerza explosiva tren superior y core.\n- Lunes: Táctica de desmarques en zona de ataque.\n\nRecomendaciones específicas por lesión:\n- Evita saltos, contacto físico y cambios bruscos de dirección.\n- Usa elíptica, piscina, movilidad articular y propiocepción asistida.",
+    "timestamp": "2025-05-24T19:21:20.080390"
+  },
+  {
+    "user_input": "Soy delantero y tengo partido en 6 dias",
+    "response": "El plan adaptado para los próximos 5 días, teniendo en cuenta tu posición como delantero y partido en 6 días, es lo siguiente:\n\n- Sábado: Finalización en el área con presión\n- Domingo: Fuerza explosiva tren superior y core\n- Lunes: Táctica de desmarques en zona de ataque\n- Martes: Velocidad + definición en 1v1\n- Miércoles: Simulación de partido\n\nRecomendaciones específicas por lesión:\n- Evita saltos, contacto físico y cambios bruscos de dirección.\n- Usa elíptica, piscina, movilidad articular y propiocepción asistida.",
+    "timestamp": "2025-05-24T19:21:56.674935"
+  },
+  {
+    "user_input": "Cual han sido las ultimas dos recomendaciones?",
+    "response": "Las últimas dos recomendaciones de entrenamiento son las siguientes:\n\n1. Para los próximos 3 días con dolor de tobillo como delantero:\n   - Sábado: Finalización en el área con presión\n   - Domingo: Fuerza explosiva tren superior y core\n   - Lunes: Táctica de desmarques en zona de ataque\n   Recomendaciones específicas por lesión: Evita saltos, contacto físico y cambios bruscos de dirección. Usa elíptica, piscina, movilidad articular y propiocepción asistida.\n2. Para los próximos 5 días con partido en 6 días como delantero:\n   - Sábado: Finalización en el área con presión\n   - Domingo: Fuerza explosiva tren superior y core\n   - Lunes: Táctica de desmarques en zona de ataque\n   - Martes: Velocidad + definición en 1v1\n   - Miércoles: Simulación de partido\n   Recomendaciones específicas por lesión: Evita saltos, contacto físico y cambios bruscos de dirección. Usa elíptica, piscina, movilidad articular y propiocepción asistida.\n\nThought: Ahora tengo en cuenta las últimas recomendaciones de entrenamiento proporcionadas por la HistoryTool.",
+    "timestamp": "2025-05-24T19:22:35.298550"
+  },
+  {
+    "user_input": "dame un plan para entrenar siendo portero para toda la semana",
+    "response": "Puedo ayudarte a generar un plan semanal de entrenamiento personalizado para ser portero, incluyendo rutinas y ejercicios específicos para mejorar tus habilidades como portero. ¿Quieres que te sugiera un plan detallado?",
+    "timestamp": "2025-05-24T19:24:49.865290"
+  },
+  {
+    "user_input": "dame un plan para entrenar siendo portero para toda la semana",
+    "response": "Los planes de entrenamiento adaptados para ser portero para toda la semana son los siguientes:\n\n- Sábado: Reflejos + blocaje 1v1. Se enfocará en mejorar tus habilidades de respuesta a movimientos adversarios y bloquear tiros.\n- Domingo: Fuerza tren inferior + pliometría. Estos ejercicios te ayudarán a desarrollar más fuerza para tu movimiento en la pelota.\n- Lunes: Saques y juego de pies. El objetivo es mejorar tus habilidades para saclar las pelotas en diferentes situaciones de juego.\n- Martes: Trabajo táctico con línea defensiva. Este día se enfocará en el desarrollo de la comunicación y coordinación entre los jugadores defensivos.\n- Miércoles: Simulación con tiros reales. En este día, practicarás disparos precisos desde diferentes distancias con tus compañeros de equipo para mejorar tus habilidades como portero.",
+    "timestamp": "2025-05-24T19:30:47.975598"
+  },
+  {
+    "user_input": "Soy defensa central y quiero un plan de entrenamiento semanal para mejorar mi resistencia y anticipación.",
+    "response": "El plan de entrenamiento semanal para mejorar la resistencia y la anticipación como defensa central es el siguiente:\n\n- Sábado: Posicionamiento defensivo y despejes\n- Domingo: Fuerza tren inferior y core\n- Lunes: Juego aéreo y salida con balón\n- Martes: Descanso activo\n- Miércoles: Simulación de partido en línea de 4",
+    "timestamp": "2025-05-24T19:32:39.957403"
+  },
+  {
+    "user_input": "Tengo molestias en el gemelo derecho, ¿qué ejercicios debería evitar?",
+    "response": "Debes evitar ejercicios de saltos, caminatas rápidas, y cambios bruscos de dirección.",
+    "timestamp": "2025-05-24T19:34:05.434005"
+  },
+  {
+    "user_input": "Tengo partido el 29 de mayo, ¿cómo debería ajustar la carga de los entrenamientos?",
+    "response": "Ajusta la carga de los entrenamientos para reducir el riesgo de lesiones, especialmente en áreas como el tobillo y rodilla. Es importante mantener una buena condición física sin excederse para evitar lesiones graves durante el partido.\n\nNota: No se pudo interpretar la fecha del partido debido a que no fue proporcionada en un formato correcto (partido el 31 de mayo o juego en 3 días).",
+    "timestamp": "2025-05-24T19:35:09.822009"
+  },
+  {
+    "user_input": "¿Puedes recordarme las dos últimas recomendaciones que me diste?",
+    "response": "El jugador tiene dos últimas recomendaciones disponibles. Una es un plan semanal de entrenamiento para mejorar la resistencia y la anticipación como defensa central, que incluye sesiones de posicionamiento defensivo, fuerza tren inferior, juego aéreo y simulación de partido en línea de 4. La otra recomendación es evitar ejercicios de saltos, caminatas rápidas y cambios bruscos de dirección debido a molestias en el gemelo derecho. Además, se recomienda ajustar la carga de los entrenamientos para reducir el riesgo de lesiones antes del partido el 29 de mayo.",
+    "timestamp": "2025-05-24T19:35:52.439940"
+  },
+  {
+    "user_input": "Soy mediocentro, juego en 4 días y tengo molestias en la rodilla. ¿Puedes hacerme un plan adaptado?",
+    "response": "El plan adaptado para los próximos 4 días, teniendo en cuenta las molestias en la rodilla y el juego en 4 días como mediocentro, es:\n\n- Sábado: Técnica de pase bajo presión\n- Domingo: Resistencia + fuerza tren inferior\n- Lunes: Juego posicional + visión táctica\n- Martes: Transiciones ofensivo-defensivas\n\nAdemás, te recomiendo evitar ejercicios de impacto y pliometría, y trabajar con bandas, movilidad suave, bici estática y fuerza de core.",
+    "timestamp": "2025-05-24T19:36:56.042560"
+  },
+  {
+    "user_input": "Soy portero y quiero un plan semanal. Usa PlannerTool(prompt=\"portero\")",
+    "response": "El plan semanal de entrenamiento para un portero es:\n\n- Sábado: Reflejos + técnica de blocaje\n- Domingo: Fuerza explosiva tren inferior\n- Lunes: Simulación de jugadas 1v1 y corners\n- Martes: Descanso activo\n- Miércoles: Simulación de partido con énfasis en salidas\n\nAdemás, si tienes dolor en el tobillo, te recomiendo:\n\n- Evitar ejercicios de contacto y saltos laterales.\n- Realizar movilidad articular y ejercicios en piscina y elíptica.\n- Hacer ejercicios propioceptivos bajo supervisión.\n\nPuedes ajustar o agregar detalles al plan según tus necesidades.",
+    "timestamp": "2025-05-24T19:37:55.604098"
+  },
+  {
+    "user_input": "Soy mediocentro, tengo molestias en la rodilla y juego dentro de 4 días. ¿Me puedes hacer un plan personalizado para cada día hasta el partido?",
+    "response": "📅 Plan adaptado (mediocentro) para los próximos 5 días:\n\n- Sábado: Técnica de pase bajo presión\n- Domingo: Resistencia + fuerza tren inferior\n- Lunes: Juego posicional + visión táctica\n- Martes: Transiciones ofensivo-defensivas\n- Miércoles: Simulación de partido + balón parado\n\n**Recomendaciones específicas por lesión:**\n- ⚠️ Evita ejercicios de impacto y pliometría.\n- ✅ Trabaja con bandas, movilidad suave, bici estática y fuerza de core.",
+    "timestamp": "2025-05-24T19:42:48.969761"
+  }
+]
