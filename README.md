@@ -23,6 +23,8 @@ Construido con ⚙️ **LangChain**, 💬 **LLMs locales (Ollama)** y 🎛️ **
 - Python 3.13
 
 ## 🗂️ Estructura del proyecto
+
+```bash
 coachbot/
 ├── app.py                  # Interfaz principal de la app
 ├── tools/                 # Herramientas personalizadas
@@ -35,7 +37,7 @@ coachbot/
 │   └── model_loader.py
 ├── requirements.txt
 └── .gitignore
-
+```
 
 **🧪 Ejemplos de uso**
 	•	"Soy defensa central y quiero un plan semanal para mejorar mi resistencia"
