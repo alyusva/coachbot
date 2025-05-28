@@ -1,0 +1,9 @@
+# Este archivo contiene el razonamiento paso a paso (ReAct) del agente CoachBot.
+# Cada entrada representa una interacción con el usuario y el proceso de toma de decisiones del agente.
+# El archivo se actualiza automáticamente en tiempo de ejecución desde app.py.
+
+# Ejemplo de entrada:
+Usuario: Tengo molestias en la rodilla y juego en 4 días, ¿qué plan me recomiendas?
+Paso 1 - Acción: AdaptivePlannerTool, Input: Soy mediocentro, tengo molestias en la rodilla y juego dentro de 4 días., Observación: 📅 Plan adaptado [...]
+Respuesta: 📅 Plan adaptado [...]
+============================================================
