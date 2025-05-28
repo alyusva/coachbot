@@ -46,4 +46,4 @@ coachbot/
 - "Soy portero y tengo partido en 3 días, adapta mi entreno según mi lesión en la rodilla"
 
 **👨‍💻 Autor**
-Desarrollado por @alyusva como MVP para explorar agentes LLM aplicados al deporte, específicamente al fútbol.
+Desarrollado por @alyusva @juaki @como MVP para explorar agentes LLM aplicados al deporte, específicamente al fútbol.
