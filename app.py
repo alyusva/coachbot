@@ -51,6 +51,9 @@ Action Input: "Soy extremo y quiero un plan semanal"
 🚫 No repitas herramientas con el mismo input varias veces. Piensa si ya tienes la información necesaria o si puedes pasar a la respuesta final.
 
 ✅ Integra la información de las herramientas en una salida coherente, clara y sin repeticiones. Adapta el mensaje al rol y estado físico del jugador.
+
+Si no puedes responder, di "No tengo suficiente información para ayudarte con eso" y no uses ninguna herramienta.
+
 """
 
 # Crear prompt template para el agente
