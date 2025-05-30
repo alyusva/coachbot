@@ -37,7 +37,7 @@ coachbot/
 │   ├── calendar_tool.py
 │   ├── history_tool.py
 │   └── adaptive_planner_tool.py
-├── models/                # Carga del modelo LLM
+├── models/                # Carga del modelo LLM, si aplica en local
 │   └── model_loader.py
 ├── requirements.txt
 └── .gitignore
