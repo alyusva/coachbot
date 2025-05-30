@@ -1,26 +1,29 @@
 # 🧠 CoachBot – Tu entrenador inteligente ⚽
 
-**CoachBot** es un asistente inteligente que genera planes de entrenamiento personalizados para futbolistas, teniendo en cuenta su **posición**, **lesiones** y **calendario competitivo**.
+**CoachBot** es un asistente virtual que genera planes de entrenamiento personalizados para futbolistas, adaptando las rutinas según **posición**, **lesiones** y **calendario competitivo**.
 
-Construido con ⚙️ **LangChain**, 💬 **LLMs locales (Ollama)** y 🎛️ **Streamlit**, CoachBot aplica razonamiento avanzado para decidir cuál de sus herramientas usar en cada caso y ofrecer recomendaciones realistas, útiles y adaptadas.
+Usando el poder de 🦜 LangChain, LLMs (🔗 API de OpenAI o 🦙 modelos locales como LLaMA 3.1/3.2 vía Ollama) y 🖥️ Streamlit, CoachBot **razona como un entrenador** para decidir qué herramienta usar y ofrecer recomendaciones coherentes, útiles y adaptadas a tu contexto.
+*Última versión emplea la API OpenAI con OPENAI_FUNCTIONS, dado que funciona mejor que Llama3.2 con STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION o ZERO_SHOT_REACT_DESCRIPTION*
 
 ---
 
 ## 🚀 ¿Qué puede hacer?
 
-- 🧠 **Generar planes semanales** de entrenamiento según el rol del jugador (portero, defensa, mediocentro, delantero)
-- 🩺 **Adaptar el entrenamiento a lesiones o molestias físicas**
-- 📆 **Ajustar la carga de trabajo** según la cercanía del próximo partido
-- 🧾 **Recordar tus últimas recomendaciones**
+- 📋 **Generar planes semanales de entrenamiento** según la posición (portero, defensa, centrocampista, delantero…)
+- 🩺 **Adaptar el plan a molestias o lesiones específicas** (rodilla, tobillo, isquios…)
+- 📆 **Ajustar la carga de trabajo** en función de la cercanía del próximo partido
+- 🧠 **Recordar tus recomendaciones anteriores** con historial cronológico y filtrado
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- [LangChain](https://www.langchain.com/) (agent + tools)
-- [Streamlit](https://streamlit.io/) (interfaz web)
-- [Ollama](https://ollama.com/) (modelo local llama3.2)
+- [LangChain](https://github.com/langchain-ai/langchain) (Agente + Herramientas personalizadas)
+- [Streamlit](https://streamlit.io) (Interfaz web conversacional)
+- [OpenAI API](https://platform.openai.com/) o [Ollama](https://ollama.com) (modelo local como `llama3.2`)
 - Python 3.13
+
+---
 
 ## 🗂️ Estructura del proyecto
 
