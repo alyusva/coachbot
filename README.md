@@ -44,10 +44,16 @@ coachbot/
 ```
 
 **🧪 Ejemplos de uso**
-- "Soy defensa central y quiero un plan semanal para mejorar mi resistencia"
-- "Juego en 4 días y tengo molestias en el tobillo, ¿qué me recomiendas?"
-- "¿Qué plan me diste ayer?"
-- "Soy portero y tengo partido en 3 días, adapta mi entreno según mi lesión en la rodilla"
+🗣️ Usuario: "Soy mediocentro y tengo partido en 3 días. ¿Qué me recomiendas?"
+🤖 CoachBot: Genera un plan día a día con sesiones técnicas, físicas y tácticas adaptadas.
+
+🗣️ Usuario: "Tengo molestias en el tobillo"
+🤖 CoachBot: Evita sprints, sugiere ejercicios alternativos, e incluye movilidad en piscina.
+
+🗣️ Usuario: "Recuérdame mis 2 últimas recomendaciones"
+🤖 CoachBot: Muestra el historial reciente con formato claro y orden cronológico.
+
+
 
 **👨‍💻 Autor**
-Desarrollado por @alyusva @juaki0315 and @CR7AngelCR7 como MVP para explorar agentes LLM aplicados al deporte, específicamente al fútbol.
+Desarrollado por @alyusva @juaki0315 and @CR7AngelCR7 como MVP para explorar agentes LLM aplicados al deporte, específicamente al fútbol como Proyecto de la asignatura IA Generativa
