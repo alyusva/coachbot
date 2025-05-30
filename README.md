@@ -43,16 +43,26 @@ coachbot/
 └── .gitignore
 ```
 
+---
+
+
 **🧪 Ejemplos de uso**
+
 🗣️ Usuario: "Soy mediocentro y tengo partido en 3 días. ¿Qué me recomiendas?"
+
 🤖 CoachBot: Genera un plan día a día con sesiones técnicas, físicas y tácticas adaptadas.
 
+
 🗣️ Usuario: "Tengo molestias en el tobillo"
+
 🤖 CoachBot: Evita sprints, sugiere ejercicios alternativos, e incluye movilidad en piscina.
 
+
 🗣️ Usuario: "Recuérdame mis 2 últimas recomendaciones"
+
 🤖 CoachBot: Muestra el historial reciente con formato claro y orden cronológico.
 
+---
 
 
 **👨‍💻 Autor**
