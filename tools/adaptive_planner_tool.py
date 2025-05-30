@@ -181,10 +181,17 @@ def adaptive_plan(prompt: str) -> str:
         plan_personalizado.append("\n🩺 Recomendaciones específicas por lesión:")
         plan_personalizado += [f"- {r}" for r in recomendaciones]
 
-    return "Final Answer: " + "\n".join(plan_personalizado)
+    return "\n".join(plan_personalizado)
 
+# LangChain integration
+from langchain.tools import StructuredTool
+from langchain_core.pydantic_v1 import BaseModel
+from typing import Type
 
-AdaptivePlannerTool = Tool(
+class AdaptivePlannerInput(BaseModel):
+    prompt: str
+
+AdaptivePlannerTool = StructuredTool.from_function(
     name="AdaptivePlannerTool",
     func=adaptive_plan,
     description=(
@@ -196,10 +203,12 @@ AdaptivePlannerTool = Tool(
         "Ejemplo de respuesta:\n"
         "📅 Plan adaptado (delantero) para los próximos 3 días:\n"
         "- Lunes: Finalización en el área con presión\n"
-        "- Martes: Fuerza explosiva tren superior y core ⚠️ adaptado: evitar actividades incompatibles con la lesión.\n"
+        "- Martes: Fuerza explosiva tr  en superior y core ⚠️ adaptado: evitar actividades incompatibles con la lesión.\n"
         "- Miércoles: Táctica de desmarques en zona de ataque\n"
         "\n🩺 Recomendaciones específicas por lesión:\n"
         "- ⚠️ Evita saltos, contacto físico y cambios bruscos de dirección.\n"
         "- ✅ Usa elíptica, piscina, movilidad articular y propiocepción asistida."
-    )
+    ),
+    args_schema=AdaptivePlannerInput,
+    return_direct=True  
 )

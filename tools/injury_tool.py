@@ -49,13 +49,17 @@ def adjust_for_injuries(prompt: str) -> str:
     return "⚠️ Consulta con tu equipo médico. La adaptación exacta dependerá del tipo y grado de lesión."
 
 
-# Tool integration for LangChain
-from langchain.tools import Tool
+# --- Tool integration for LangChain ---
+from langchain.tools import StructuredTool
+from langchain_core.pydantic_v1 import BaseModel
 
-InjuryTool = Tool(
-    name="InjuryTool",
+class InjuryInput(BaseModel):
+    prompt: str
+
+InjuryTool = StructuredTool.from_function(
     func=adjust_for_injuries,
-   description=(
+    name="InjuryTool",
+    description=(
         "Evalúa y adapta los entrenamientos en función de lesiones específicas mencionadas por el jugador. "
         "Devuelve recomendaciones de ejercicios y precauciones.\n\n"
         "Ejemplo de uso: 'Tengo molestias en la rodilla' o 'me duele el tobillo derecho'.\n"
@@ -64,5 +68,7 @@ InjuryTool = Tool(
         "- Evita impacto (saltos, carrera intensa, sentadillas profundas).\n"
         "- Usa bicicleta estática, estiramientos suaves y fortalecimiento isométrico.\n"
         "- Consulta con tu fisioterapeuta antes de volver a la carga total."
-    )
+    ),
+    args_schema=InjuryInput,
+    return_direct=True
 )

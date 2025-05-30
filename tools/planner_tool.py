@@ -110,16 +110,21 @@ def generate_plan(prompt: str) -> str:
         dia_semana = weekdays[(today.weekday() + i) % 7]
         lines.append(f"- {dia_semana}: {plan_recortado[i]}")
 
-    lines.append("\n✅ Plan generado teniendo en cuenta tu posición. ¿Quieres añadir más detalles o adaptarlo?")
+    lines.append("\n✅ Plan generado teniendo en cuenta tu posición.")
     return "\n".join(lines)
 
 
-# PlannerTool para integración con LangChain
-from langchain.tools import Tool
+# PlannerTool para integración con LangChain (StructuredTool)
+from langchain.tools import StructuredTool
+from langchain_core.pydantic_v1 import BaseModel
+from typing import Type
 
-PlannerTool = Tool(
-    name="PlannerTool",
+class PlannerInput(BaseModel):
+    prompt: str
+
+PlannerTool: StructuredTool = StructuredTool.from_function(
     func=generate_plan,
+    name="PlannerTool",
     description=(
         "Genera un plan de entrenamiento diario y detallado para fútbol, adaptado a la posición del jugador "
         "(portero, defensa, lateral, mediocentro, interior, mediapunta, extremo, delantero, pichichi). "
@@ -135,6 +140,7 @@ PlannerTool = Tool(
         "\n✅ Plan generado teniendo en cuenta tu posición. ¿Quieres añadir más detalles o adaptarlo?"
         "Si no se menciona la posición, el plan no se generará. "
         "Si se menciona una posición no válida, se devolverá un mensaje de posición no contemplada."
-        "\n\n"
-    )
+    ),
+    args_schema=PlannerInput,
+    return_direct=True
 )

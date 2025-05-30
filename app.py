@@ -1,4 +1,7 @@
 import streamlit as st
+from dotenv import load_dotenv
+import os
+from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain_community.llms import HuggingFacePipeline
@@ -13,8 +16,19 @@ from tools.adaptive_planner_tool import AdaptivePlannerTool
 from tools.history_tool import save_to_history, retrieve_history
 from models.model_loader import load_model
 
+
+# Cargar variables de entorno
+load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
 # Cargar modelo LLM (usando Ollama o local)
-llm = load_model()
+#llm = load_model()
+
+llm = ChatOpenAI(
+    model="gpt-3.5-turbo",  
+    temperature=0.7,
+    openai_api_key=openai_api_key
+)
 
 # Definir herramientas personalizadas
 tools = [
@@ -104,8 +118,14 @@ Tienes acceso a las siguientes herramientas especializadas:
 ---
 
 🔎 **IMPORTANTE sobre "Final Answer":**
-- Si la herramienta devuelve la respuesta con el prefijo `"Final Answer: "`, asegúrate de que el usuario final **no vea** ese texto. Si tu agente lo muestra, elimina ese prefijo en la función de la tool y devuelve solo el contenido relevante.
+- Cuando recibas una respuesta clara de una herramienta, **detén el razonamiento inmediatamente** y responde al usuario con:
+  Final Answer: [respuesta de la herramienta]
+
+- **No debes seguir escribiendo más `Thought:` ni `Action:` después de una herramienta si su respuesta ya es suficiente.**
+- **No repitas la misma herramienta con el mismo input.**
+- Si la respuesta de la herramienta ya es suficiente, no la reformules ni la expandas innecesariamente.
 """
+
 
 # Crear prompt template para el agente
 prompt_template = ChatPromptTemplate.from_messages([
@@ -118,15 +138,16 @@ prompt_template = ChatPromptTemplate.from_messages([
 agent_executor = initialize_agent(
     tools=tools,
     llm=llm,
-    agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+    agent=AgentType.OPENAI_FUNCTIONS, #STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION, ZERO_SHOT_REACT_DESCRIPTION,
     handle_parsing_errors=True,
     verbose=True,
-    agent_kwargs={"prompt": prompt_template}
+    return_intermediate_steps=False
+    #agent_kwargs={"prompt": prompt_template}
 )
 
 # Interfaz de usuario con Streamlit
 st.set_page_config(page_title="CoachBot", layout="centered")
-st.title("🏋️ CoachBot - Tu planificador de entrenos")
+st.title("🏋️⚽ CoachBot - Tu planificador de entrenos")
 
 if "chat" not in st.session_state:
     st.session_state.chat = []
@@ -136,11 +157,21 @@ user_input = st.chat_input("¿En qué te puedo ayudar hoy con tu entrenamiento?"
 if user_input:
     st.session_state.chat.append(("user", user_input))
     with st.spinner("Pensando..."):
-        response = agent_executor.invoke({"input": user_input})["output"]
-    st.session_state.chat.append(("bot", response))
+        raw_response = agent_executor.invoke({"input": user_input})
+        output = raw_response.get("output", "")
 
-    save_to_history({"user_input": user_input, "response": response})
+        # Forzar Final Answer si detectamos que la respuesta ya es clara
+        if not output.lower().startswith("final answer:") and any(
+            kw in output.lower() for kw in [
+                "📅", "✅", "molestia", "plan desde hoy", "plan adaptado", "el partido es"
+            ]
+        ):
+            output = f"Final Answer: {output}"
 
+        st.session_state.chat.append(("bot", output))
+        save_to_history({"user_input": user_input, "response": output})
+
+# Mostrar historial de conversación
 for role, msg in st.session_state.chat:
     with st.chat_message(role):
         st.markdown(msg)
