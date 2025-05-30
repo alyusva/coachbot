@@ -3,6 +3,7 @@
 **CoachBot** es un asistente virtual que genera planes de entrenamiento personalizados para futbolistas, adaptando las rutinas según **posición**, **lesiones** y **calendario competitivo**.
 
 Usando el poder de 🦜 LangChain, LLMs (🔗 API de OpenAI o 🦙 modelos locales como LLaMA 3.1/3.2 vía Ollama) y 🖥️ Streamlit, CoachBot **razona como un entrenador** para decidir qué herramienta usar y ofrecer recomendaciones coherentes, útiles y adaptadas a tu contexto.
+
 *Última versión emplea la API OpenAI con OPENAI_FUNCTIONS, dado que funciona mejor que Llama3.2 con STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION o ZERO_SHOT_REACT_DESCRIPTION*
 
 ---
