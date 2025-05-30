@@ -58,8 +58,13 @@ HistoryTool = Tool(
     name="HistoryTool",
     func=retrieve_history,
     description=(
-        "Recupera los últimos planes de entrenamiento o recomendaciones generadas previamente. "
-        "Ideal para recordar sesiones pasadas.\n\n"
-        "Ejemplo de uso: '¿Qué me recomendaste ayer?' o 'Recuérdame el plan anterior'."
+        "Permite consultar el historial de recomendaciones y planes de entrenamiento generados previamente para el usuario. "
+        "Ideal para recordar sesiones pasadas, comparar progresos o retomar un plan anterior. "
+        "Devuelve las últimas entradas del historial, incluyendo fecha, consulta y respuesta asociada.\n\n"
+        "Ejemplo de uso: '¿Qué me recomendaste ayer?', 'Recuérdame el plan anterior', 'Muéstrame mis últimas 2 recomendaciones'.\n"
+        "Ejemplo de respuesta:\n"
+        "📅 29/05/2025 18:30\n"
+        "📌 ¿Qué rutina hago si tengo molestias en el tobillo?\n"
+        "👉 ⚠️ Molestia en el tobillo detectada: ...\n"
     )
 )

@@ -65,7 +65,17 @@ CalendarTool = Tool(
     name="CalendarTool",
     func=analyze_calendar,
     description=(
-        "Analiza la proximidad del próximo partido (a partir de una fecha o número de días) y sugiere ajustes de carga en el entrenamiento.\n\n"
-        "Ejemplo de uso: 'Juego el 28 de mayo' o 'Tengo partido en 4 días'."
+        "Analiza la proximidad del próximo partido a partir de una fecha concreta o número de días indicado por el usuario, "
+        "e interpreta frases como 'el 31 de mayo', 'mañana', 'en 3 días', etc. "
+        "Su objetivo es recomendar el enfoque general de la semana (carga, recuperación, activación), "
+        "pero **no genera rutinas ni ejercicios específicos**. "
+        "Ideal para planificar la distribución de la carga y el descanso según la fecha del partido, "
+        "sin tener en cuenta la posición ni detalles personalizados.\n\n"
+        "Ejemplo de uso: '¿Cómo debería organizar mi semana si juego en 4 días?', 'Tengo partido el 28 de mayo', 'Mi próximo partido es mañana'.\n"
+        "Ejemplo de respuesta:\n"
+        "📆 El partido es en 4 días.\n"
+        "- Reduce carga progresivamente. Prioriza técnica y recuperación.\n"
+        "- Simula jugadas específicas del rival.\n"
+        "- Mantén buena nutrición y descanso."
     )
 )

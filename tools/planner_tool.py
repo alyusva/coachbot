@@ -121,8 +121,20 @@ PlannerTool = Tool(
     name="PlannerTool",
     func=generate_plan,
     description=(
-        "Genera un plan semanal de entrenamiento personalizado según la posición del jugador. "
-        "Incluye rutinas para cada día. No considera lesiones ni calendario.\n\n"
-        "Ejemplo de uso: 'Soy defensa y quiero un plan semanal de entrenamiento'."
+        "Genera un plan de entrenamiento diario y detallado para fútbol, adaptado a la posición del jugador "
+        "(portero, defensa, lateral, mediocentro, interior, mediapunta, extremo, delantero, pichichi). "
+        "Incluye ejercicios y simulaciones concretas para cada día, según la posición y los días hasta el partido. "
+        "Solo debe usarse si el usuario menciona explícitamente su posición. "
+        "No analiza fechas ni recomienda la carga general, sino que crea una rutina personalizada y estructurada.\n\n"
+        "Ejemplo de uso: 'Soy extremo y juego en 3 días, ¿qué rutina diaria me recomiendas?', 'Plan semanal para portero'.\n"
+        "Ejemplo de respuesta:\n"
+        "📅 Plan desde hoy hasta el partido (3 días):\n"
+        "- Lunes: Desborde y regate en 1v1\n"
+        "- Martes: Fuerza tren inferior + velocidad\n"
+        "- Miércoles: Centros y tiros desde banda\n"
+        "\n✅ Plan generado teniendo en cuenta tu posición. ¿Quieres añadir más detalles o adaptarlo?"
+        "Si no se menciona la posición, el plan no se generará. "
+        "Si se menciona una posición no válida, se devolverá un mensaje de posición no contemplada."
+        "\n\n"
     )
 )

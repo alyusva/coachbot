@@ -55,9 +55,14 @@ from langchain.tools import Tool
 InjuryTool = Tool(
     name="InjuryTool",
     func=adjust_for_injuries,
-    description=(
+   description=(
         "Evalúa y adapta los entrenamientos en función de lesiones específicas mencionadas por el jugador. "
         "Devuelve recomendaciones de ejercicios y precauciones.\n\n"
-        "Ejemplo de uso: 'Tengo molestias en la rodilla' o 'me duele el tobillo derecho'."
+        "Ejemplo de uso: 'Tengo molestias en la rodilla' o 'me duele el tobillo derecho'.\n"
+        "Ejemplo de respuesta:\n"
+        "⚠️ Molestia en la rodilla detectada:\n"
+        "- Evita impacto (saltos, carrera intensa, sentadillas profundas).\n"
+        "- Usa bicicleta estática, estiramientos suaves y fortalecimiento isométrico.\n"
+        "- Consulta con tu fisioterapeuta antes de volver a la carga total."
     )
 )

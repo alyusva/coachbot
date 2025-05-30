@@ -148,5 +148,10 @@
     "user_input": "Dime los dos últimos planificaciones",
     "response": "El plan de entrenamiento actualizado es el siguiente:\n\nLunes: Entrenamiento cardiovascular ligero\nMartes: Entrenamiento de fuerza para piernas con pesas ligeras\nMiércoles: Descanso\nJueves: Entrenamiento de agilidad y velocidad con saltos altos\nViernes: Entrenamiento de armónía vocal con cantos ligeros\nSábado: Entrenamiento de técnica de baloncesto con práctica de lanzamiento\nDomingo: Descanso\n\nPuedes revisar el plan en la sección de historia.",
     "timestamp": "2025-05-29T19:06:59.764953"
+  },
+  {
+    "user_input": "Soy extremo, quiero un plan técnico para esta semana",
+    "response": "El plan técnico para este fin es el siguiente:\n\nEl plan incluye una combinación de ejercicios técnicos como driblar y control del balón, así como ejercicios físicos para mejorar la velocidad, agilidad y resistencia.",
+    "timestamp": "2025-05-30T07:53:43.273156"
   }
 ]
